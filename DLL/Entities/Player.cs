@@ -32,6 +32,7 @@ namespace DLL.Entities
         public int RandomDmg { get; set; }
         public DateTime LastActive { get; set; }
         public int BattlesPerDay { get; set; }
+        public string Server { get; set; }
         public List<PlayerTank> PlayerTanks { get; set; }
     }
 }

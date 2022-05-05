@@ -13,6 +13,7 @@ namespace DLL.Entities
         public int Requests { get; set; }
         public string MacAddress { get; set; }
         public string Service { get; set; }
+        public string ServiceIp { get; set; }
         public string ServiceName { get; set; }
         public User User { get; set; }
     }

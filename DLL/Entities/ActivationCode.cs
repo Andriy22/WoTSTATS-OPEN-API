@@ -17,5 +17,6 @@ namespace DLL.Entities
         public DateTime AtEnd { get; set; }
         public bool IsActivated { get; set; }
         public bool IsSuspended { get; set; }
+        public int Requests { get; set; }
     }
 }
